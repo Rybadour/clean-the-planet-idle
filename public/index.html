@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Nanobots Idle</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Nanobots Idle</h1>
+    </header>
+
+    <div class="content">
+      <div id="menu">
+        <div class="stats">
+          <div class="stat">
+            <img src="icons/materials-science.png" />
+            <span>Matter</span>
+            <span class="matter-count"></span>
+          </div>
+        </div>
+
+        <div class="upgrades">
+          <h2>Evolution</h2>
+          <div class="upgrade-list">
+
+            <template id="upgrade-template">
+              <div class="upgrade">
+                <div class="upgrade-header">
+                  <div class="upgrade-name"></div>
+                  <div class="upgrade-bonus"></div>
+                </div>
+                <div class="upgrade-description"></div>
+                <button class="upgrade-purchase-button"></button>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+
+      <canvas id="main-canvas"></canvas>
+    </div>
+  </body>
+</html>
